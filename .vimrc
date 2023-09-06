@@ -9,3 +9,4 @@ map <C-h> ^
 map <C-l> $
 
 set ts=4 sw=4
+set t_Co=256
