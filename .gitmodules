@@ -1,3 +1,6 @@
 [submodule "Zenburn"]
 	path = Zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "vim-colors-solarized"]
+	path = vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

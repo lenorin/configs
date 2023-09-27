@@ -1,12 +1,18 @@
-imap jj <Esc>
-colors zenburn
+" Color scheme
+" syntax enable
+set background=dark
+colors solarized
+
+" Other visual mapping
 set nu
 set cursorline
 
+" Usage improvements
+set ts=4 sw=4
+imap jj <Esc>
 map <C-k> <C-y>
 map <C-j> <C-e>
 map <C-h> ^
 map <C-l> $
 
-set ts=4 sw=4
-set t_Co=256
+nmap <Space> :w<CR>

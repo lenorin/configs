@@ -1,0 +1,28 @@
+# look and feel
+caption always "%{= bb}%{+b w}%h %=%{=b rw} %l %{= db} ${USER}@%H %{= dg}%c"
+# hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+hardstatus alwayslastline "%{b kw}%H %{r}%1` %{w}| %{g}%c %{w}| %{y}%d.%m.%Y %{w}| %{g}%l %{w}| %{-b kw}%u %-Lw%{= rW}%50> %n%f %t %{-}%+Lw%<"
+
+
+# skip the startup message
+startup_message off
+
+# go to home dir
+chdir
+
+# Automatically detach on hangup. 
+autodetach on
+
+# Change default scrollback value for new windows
+defscrollback 10000
+
+# start with visual bell as default
+vbell on
+vbell_msg "bell on %t (%n)"
+
+activity "Activity in %t(%n)"
+
+shelltitle "shell"
+shell -$SHELL
+
+escape ``
