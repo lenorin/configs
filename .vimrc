@@ -16,3 +16,6 @@ map <C-h> ^
 map <C-l> $
 
 nmap <Space> :w<CR>
+:filetype indent on
+:set shiftwidth=4
+set pastetoggle=<f5>
